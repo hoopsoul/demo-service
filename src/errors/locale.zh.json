@@ -1,0 +1,23 @@
+{
+  "UsernameInvalid": "请提供有效的用户名",
+  "MobileNumberInvalid": "请提供有效的手机号码",
+  "RegionNotSupported": "国家或地区尚未支持",
+  "FailToSendSms": "发送验证码失败，请稍后再试",
+  "EmailInvalid": "请提供有效的邮箱地址",
+  "NotAuthorize": "您没有权限执行此操作",
+  "AvatarInvalid": "头像不合法",
+  "Internal": "服务器内部错误",
+  "ResourceTypeNotSupported": "非法的资源类型",
+  "ApiAuthKeyIsMissing": "API凭据不能为空",
+  "EventStatusShouldUpdateSeparately": "Event的状态变更不能和内容一起进行，请分别调用独立的API",
+  "InvalidAuthKey": "未提供有效认证信息",
+  "AuthTypeInvalid": "未知的身份验证方式",
+  "PasswordRequired": "请提供账号密码",
+  "InvalidCoordinate": "请提供有效坐标信息",
+  "CommentRequired": "评论内容不能为空",
+  "CityParamsRequired": "请选择想要查看活动的城市",
+  "FeeRequestRequired": "请提供参加活动的费用选择和报名人数",
+  "ApplyQuotaExceed": "报名人数超出限制",
+  "ApplyInventoryExceed": "报名已经满额，请刷新剩余名额",
+  "SplitPaymentRequired": "请提供各参与者应付金额"
+}

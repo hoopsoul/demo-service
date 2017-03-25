@@ -1,0 +1,66 @@
+{
+  "name": "demo service",
+  "server": {
+    "port": 10002
+  },
+  "thirdParty": {
+    "aliDayu": {
+      "appKey": "****",
+      "appSecret": "***"
+    },
+    "smtp": {
+      "connectionString": "",
+      "from": ""
+    },
+    "forecast": {
+      "key": ""
+    },
+    "amap": {
+      "key": ""
+    }
+  },
+  "database": {
+    "postgres": {
+      "demo": {
+        "host": "localhost",
+        "db": "demo-test",
+        "port": 5432,
+        "credentials": {
+          "username": "postgres"
+        },
+        "default": true
+      },
+      "postgres": {
+        "db": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "credentials": {
+          "username": "postgres"
+        }
+      }
+    }
+  },
+  "jwtOptions": {
+    "expiresIn": "180d"
+  },
+  "secret": {
+    "jwt": "",
+    "cookie": "",
+    "hash": ""
+  },
+  "pay": {
+    "wechat": {
+      "appid": "",
+      "appsecret": "",
+      "partnerid": "",
+      "signkey": "",
+      "redirect": ""
+    },
+    "ali": {
+      "partnerid": "",
+      "appid": "",
+      "sellerid": "",
+      "redirect":  ""
+    }
+  }
+}
