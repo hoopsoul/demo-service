@@ -1,8 +1,8 @@
 import log4js from 'log4js'
 import cookieParser from 'cookie-parser'
 import bodyParser from 'body-parser'
-// import models, { configure } from 'demo-model'
 import models, { configure } from 'demo-model'
+import helmet from 'helmet'
 import config from './config'
 import authorization from './authorization'
 import * as route from './route'
@@ -36,6 +36,8 @@ async function server() {
 
   const app = express()
   const apiRouter = new express.Router()
+
+  app.use(helmet())
 
   if (__DEV__ && !__TEST__) {
     apiRouter.use(
